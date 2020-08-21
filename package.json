@@ -4,8 +4,20 @@
   "description": "管理系统 服务端项目",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.4",
+    "@types/koa-router": "^7.4.1",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.6.0"
+  }
 }
